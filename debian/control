@@ -1,0 +1,23 @@
+Source: zimbra-ajax
+Section: mail
+Priority: optional
+Build-Depends: debhelper (>=9), ant, ant-contrib, git, default-jdk, ivy,
+  zimbra-common-core-dev, zimbra-taglib
+Standards-Version: 3.9.6
+Maintainer: Enrico Weigelt, metux IT consult <info@metux.net>
+Uploaders: Enrico Weigelt, metux IT consult <info@metux.net>
+
+Package: zimbra-ajax
+Section: mail
+Priority: optional
+Architecture: any
+Depends: zimbra-core-jar-common, zimbra-core-jar-client, zimbra-core-jar-store,
+  zimbra-taglib
+Description: LibreZimbra webclient ajax components
+
+Package: zimbra-ajax-dev
+Section: mail
+Priority: optional
+Architecture: any
+Depends: zimbra-ajax
+Description: LibreZimbra webclient ajax components (devel)
