@@ -1,5 +1,5 @@
 <project name="zm-ajax" default="jar">
-    <import file="../zm-zcs/ant-global.xml"/>
+    <import file="ant-global.xml"/>
 
     <target name='init' >
 	
